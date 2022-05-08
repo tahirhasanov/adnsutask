@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.308);
+    padding: 30px 0px;
+}
+.tarifs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px 100px;
+}
+.tarif{
+    width: 30%;
+    background-color: white;
+}
+.basic,.pro,.premium{
+    color: white;
+    background-color: aqua;
+    padding: 20px 0px;
+}
+.price{
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.tarif p{
+    padding: 30px 20px;
+    line-height: 25px;
+}
+.information{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+.user{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 100%;
+}
+.users{
+    padding: 20px;
+}
+.user p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}

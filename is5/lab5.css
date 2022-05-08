@@ -1,0 +1,41 @@
+.external h1{
+    color: blue;
+    font-size: 40px;
+    border: 5px solid black;
+}
+.external p{
+    color: red;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.external input{
+    color: magenta;
+    font-size: 25px;
+    border: 5px solid black;
+}
+.external table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.external th{
+    color: orangered;
+    font-size: 25px;
+    border: 2px solid black;
+}
+.external td{
+    border: 2px solid black;
+}
+
+
+
+
+.inline{
+    background-color: rgba(0, 0, 255, 0.301);
+}
+.internal{
+    background-color: rgba(255, 0, 0, 0.308);
+}
+.external{
+    background-color: rgba(0, 128, 0, 0.329);
+}
